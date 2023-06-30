@@ -1,6 +1,6 @@
 spring:
   application:
-    name: QR_User
+    name: QR-User
   datasource:
     url: jdbc:postgresql://localhost:5432/QR_User?currentSchema=public
     username: postgres
