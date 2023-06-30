@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: QR_User
+  datasource:
+    url: jdbc:postgresql://localhost:5432/QR_User?currentSchema=public
+    username: postgres
+    password: admin
+  jpa:
+    database: postgresql
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
